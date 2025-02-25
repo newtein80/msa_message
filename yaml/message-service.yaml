@@ -11,5 +11,5 @@ spec:
     - protocol: TCP
       port: 8801
       targetPort: 8801
-      nodePort: 30207
+      nodePort: 30210
   type: NodePort
