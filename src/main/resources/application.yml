@@ -4,6 +4,8 @@ server:
 spring:
   application:
     name: "message"
+  profiles:
+    active: git
   cloud:
     function:
       definition: email|sms

@@ -1,0 +1,10 @@
+server:
+  port: 9010
+
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+    connection-timeout: 10s
